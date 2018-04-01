@@ -1,21 +1,28 @@
 
+<div class="homecontent">
 
-<h4>Hi, I'm Siddharth Kulkarni and everything about spiders excites me!</h4>
-<!--<p>Did you know, some fun fact about spiders which excites lay people and also scientists.</p>-->
+  <h4 class="text-center">Hi, I'm Siddharth Kulkarni and everything about spiders excites me!</h4>
+  <!--<p>Did you know, some fun fact about spiders which excites lay people and also scientists.</p>-->
 
 
-<div class = "contributions text-center" >
+  <div class = "contributions text-center" >
 
-  <div class="col-md-6 col-sm-4 contribution ">
-    <a target="_blank"><i class="fa fa-sliders fa-4x"></i></a>
-    <h4><strong>Reconstructing Spider Evolution</strong></h4>
+    <div class="col-md-6 col-sm-4 contribution ">
+      <a target="blank" (mouseenter) ="mouseEnter('reco')"  (mouseleave) ="mouseLeave('reco')"><i class="fa fa-sliders fa-4x"></i></a>
+      <h4><strong>Reconstructing Spider Evolution</strong></h4>
+    </div>
+
+
+
+    <div class="col-md-6 col-sm-4 contribution ">
+      <a target="blank"  (mouseenter) ="mouseEnter('citz')"  (mouseleave) ="mouseLeave('citz')"><i class="fa fa-users"></i></a>
+      <h4><strong>Citizen Science</strong></h4>
+    </div>
+
   </div>
 
-
-
-  <div class="col-md-6 col-sm-4 contribution ">
-    <a target="_blank"><i class="fa fa-users"></i></a>
-    <h4><strong>Citizen Science</strong></h4>
+  <div class="desc">
+      {{description}}
   </div>
 
 </div>

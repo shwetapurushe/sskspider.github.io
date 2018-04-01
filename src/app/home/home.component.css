@@ -1,7 +1,6 @@
 h4{
 margin : 0px;
 padding: 5% 0 10% 0;
-text-align:center;
 }
 
 .contributions i.fa {
@@ -43,3 +42,9 @@ text-align:center;
     }
 }
 .text-center{ text-align: center; }
+
+.desc
+{
+  margin:20px;
+  padding:10%;
+}
